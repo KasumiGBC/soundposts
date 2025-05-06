@@ -1,1 +1,1 @@
-ffmpeg -y -i soundpost -i audio_file -c:v copy -c:a libopus output_file
+ffmpeg -y -i video.webm -i audio.mp3 -c:v copy -c:a libopus output_file
